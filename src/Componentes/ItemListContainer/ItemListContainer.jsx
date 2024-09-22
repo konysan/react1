@@ -1,16 +1,5 @@
 import React from 'react'
 import "./ItemListContainer.css"
-<<<<<<< HEAD
-
-
-const ItemListContainer = (props) => {
-  return (
-    <div>
-        <h2 className='Productos'>
-        {props.greeting}
-        </h2>
-    </div>
-=======
 import { useState, useEffect } from 'react'
 import { getProductos,getProductosPorCategorias } from '../../asyncmock'
 import ItemList from '../ItemList/ItemList'
@@ -34,7 +23,6 @@ const ItemListContainer = () => {
           <h2 className='Productos'>Mis Productos</h2>
           <ItemList productos={productos} />
       </>
->>>>>>> master
   )
 }
 

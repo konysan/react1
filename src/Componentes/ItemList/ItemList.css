@@ -1,5 +1,6 @@
 .contenedorProductos {
     display: flex;
+    
     flex-wrap: wrap;
     background-color: rgba(255, 0, 0, 0.363);
 }
