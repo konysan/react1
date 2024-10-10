@@ -1,4 +1,5 @@
 .contenedorItem{
+    
     text-align: center;
     border: 1px solid black;
     margin: 4rem;
@@ -8,4 +9,11 @@
 img{
    
     width: 35vw;
+}
+
+.botones{
+    display: flex, center;
+    text-align: center;
+    gap: 100px;
+     margin-top:1rem;
 }
