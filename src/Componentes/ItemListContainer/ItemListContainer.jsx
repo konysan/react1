@@ -1,7 +1,6 @@
 import React from 'react'
 import "./ItemListContainer.css"
 import { useState, useEffect } from 'react'
-//import { getProductos,getProductosPorCategorias } from '../../asyncmock'
 import ItemList from '../ItemList/ItemList'
 import { useParams } from 'react-router-dom'
 import { db } from '../../Services/Config'
@@ -32,13 +31,7 @@ const ItemListContainer = () => {
         setLoading(false)
     })
 }, [idCategoria])
-   /* useEffect(() => {
-        const funcionProductos = idCategoria ? getProductosPorCategorias : getProductos;
-
-        funcionProductos(idCategoria)
-        .then(res => setProductos(res))
-        
-    }, [idCategoria])*/
+   
   return (
       <>
           <h2 className='Productos'>Mis Productos</h2>
